@@ -1,0 +1,45 @@
+/* Importing Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&family=Roboto+Slab:wght@200;300;400;700&display=swap');
+
+/* Importing component files */
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/avatar.css");
+@import url("components/card.css");
+
+body {
+	background-color: white;
+	color: rgb(40,40,40);
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	margin: 0px; /* To kill automatic margin */
+	}
+
+
+h1 {
+	font-size:44px;
+}
+
+h1, h2, h3{
+	font-family: 'Montserrat', sans-serif;
+	color: #f89321;
+	font-weight: 800;
+	text-align: center;
+
+}
+
+h2{	
+	font-size: 32px;
+	font-weight: 600;
+}
+
+h3{
+	font-size: 16px;
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+}

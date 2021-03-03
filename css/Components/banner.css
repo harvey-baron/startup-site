@@ -1,0 +1,21 @@
+.banner {
+	background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url(../../images/library2.jpg); /* The 2 slashes in url is bc we need to go 2 layers higher up to get image file */
+	padding: 300px 0px;
+	margin: -21px;
+	background-size: cover; /* To cover whole container */
+	background-position: center;
+}
+
+
+.banner h1 {
+	font-size: 50px;
+	color: white;
+}
+
+.banner h2 {
+	font-size: 30px;
+	color: white;
+	font-weight: lighter;
+	margin-bottom: 40px;
+}
+
